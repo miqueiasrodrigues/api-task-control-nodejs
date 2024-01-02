@@ -1,37 +1,22 @@
-# Aplicativo de Controle de Tarefas com React
+# Projeto de API RESTful Node.js com TypeScript, TypeORM e MySQL
 
-Bem-vindo ao Task Control, um aplicativo web baseado em React para gerenciamento de tarefas. Este projeto utiliza a capacidade do React para proporcionar uma interface dinâmica e amigável, e interage com uma API backend por meio do Axios para manipulação eficiente de dados.
+Este repositório contém o código-fonte de uma API RESTful desenvolvida em Node.js, utilizando TypeScript como linguagem de programação, TypeORM como ORM (Object-Relational Mapping) e MySQL como banco de dados.
 
-## Tecnologias Utilizadas
+## Tecnologias Principais
 
-- **React:** Uma biblioteca JavaScript para construção de interfaces de usuário, tornando o aplicativo rápido e eficiente.
-- **Axios:** Um cliente HTTP baseado em promessas para fazer requisições à API backend.
-- **CSS e HTML**: Estilizar as páginas. 
+- **Node.js:** Plataforma de execução de JavaScript para construir aplicações server-side escaláveis.
+- **TypeScript:** Superset tipado do JavaScript que adiciona tipos estáticos opcionais.
+- **TypeORM:** ORM (Object-Relational Mapping) para Node.js e TypeScript, que simplifica a interação com bancos de dados relacionais.
+- **MySQL:** Banco de dados relacional amplamente utilizado para armazenar e gerenciar dados.
 
-## Recursos
+## Funcionalidades Principais
 
-- Gerenciamento de tarefas com uma interface intuitiva.
-- Integração fácil com uma API backend para armazenamento e recuperação de dados de tarefas.
-- [Adicione outros recursos ou funcionalidades significativas.]
+- Cadastro, leitura, atualização e remoção de entidades relacionadas ao seu domínio.
+- Exemplo de implementação de rotas, serviços e controladores seguindo boas práticas de desenvolvimento.
 
-## Como Começar
+## Como Iniciar
 
-1. Clone o repositório: `git clone https://github.com/seu-nome-de-usuario/seu-repositorio.git`
-2. Navegue até a pasta do projeto: `cd seu-repositorio`
-3. Instale as dependências: `npm install`
-4. Configure o endpoint da API no projeto (por exemplo, em um arquivo de ambiente).
-5. Inicie o aplicativo: `npm start`
-
-## Como Contribuir
-
-Contribuições são bem-vindas! Se deseja contribuir para este projeto, siga estes passos:
-
-1. Faça um fork do projeto.
-2. Crie um novo branch: `git checkout -b feature/sua-feature`
-3. Faça suas alterações e faça o commit: `git commit -m 'Adicionar nova feature'`
-4. Faça push para o branch: `git push origin feature/sua-feature`
-5. Envie um pull request.
-
-## Feedback
-
-Sinta-se à vontade para abrir issues ou fornecer
+1. Clone o repositório: `git clone https://github.com/miqueiasrodrigues/api-task-control-nodejs.git`
+2. Instale as dependências: `npm install`
+3. Configure as variáveis de ambiente para conexão com o MySQL no arquivo `.env`.
+4. Execute o aplicativo: `npm run dev`
